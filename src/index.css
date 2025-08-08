@@ -1,0 +1,6 @@
+@import "tailwindcss";
+/* Your custom animation */
+html {
+  scroll-behavior: smooth;
+}
+

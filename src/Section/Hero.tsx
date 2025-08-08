@@ -2,17 +2,7 @@ import { Button } from "../Components/Button";
 import { Card } from "../Components/Card";
 
 export const Hero = () => {
-  const features = [
-    {
-      title: "Optimized Menus",
-      content: "Our menu is as dynamic as your code."
-    },
-    {
-      title: "Zero-Downtime Service",
-      content: "Quick code, quick bites."
-    },
-  ];
-
+  
   return (
     <section className="bg-black text-white py-20">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full gap-10 px-6 max-w-screen-xl mx-auto">
